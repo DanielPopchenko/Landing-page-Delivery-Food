@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  height: 55px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 2px -1px rgba(128, 128, 128, 0.294);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.title {
+  display: block;
+  margin-left: 20px;
+}
