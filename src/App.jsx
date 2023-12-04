@@ -1,13 +1,16 @@
 import React from 'react';
-import Header from './components/header/Header';
+
 import Form from './components/form/Form';
+import Backdrop from './components/backdrop/Backdrop';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Form />
-    </div>
+    <>
+      <Backdrop>
+        <Form />
+      </Backdrop>
+      <p>sjhsjs</p>
+    </>
   );
 };
 
